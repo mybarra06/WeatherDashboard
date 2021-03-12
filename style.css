@@ -1,0 +1,35 @@
+.weather-header {
+    background-color: rgb(71, 65, 65);
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    
+}
+
+  form.example button {
+    float: right;
+    width: 20%;
+    padding: 10px;
+    background: chocolate;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+  }
+  form.example input[type=text] {
+    padding: 10px;
+    border: 1px solid grey;
+    float: right;
+    width: 70%;
+    background: white;
+  }
+  form.example button:hover {
+    background-color: darkblue;
+  }
+  
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
